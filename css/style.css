@@ -1,0 +1,40 @@
+.container{
+    width: 1900px;
+    height: 1080px;
+    background-color: red;
+    background-image: url("https://images.pexels.com/photos/60597/dahlia-red-blossom-bloom-60597.jpeg?cs=srgb&dl=pexels-pixabay-60597.jpg&fm=jpg");
+    /* background-size: cover; */
+    /* cover -> background image parent elementi to`liq qoplaydi */
+    background-size: contain;
+    /* cover -> background image parent elementni ichiga to`liq tushadi qayta takrorlanadi */
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.container-linear{
+    width: 1200px;
+    height: 700px;
+    background: linear-gradient(90deg, yellow, orange,);
+}
+
+.container-fluid{
+    width: 100vw;
+    /* view-width ekran uzunligi */
+    height: 100vh;
+    /*view-height ekran balandligi  */
+    background-color: green;
+}
+.title{
+    font-size: 100px;
+    background: linear-gradient(red, blue);
+    -webkit-background-clip: text;
+    /* chrome, safari, moz ios, opera */
+    background-clip: text;
+    /* inter explorer, opera eski, yandex, edge */
+    -webkit-text-fill-color: transparent;
+    /* PREFIX */
+    /* -ms -> microsoft edge */
+    /* o -> opera */
+    /* -webkit > chrome, safari, moz ios, opera*/
+    /* -moz -> mozilla firefox*/
+}
+
